@@ -5,9 +5,9 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
 	"golang.org/x/image/font/gofont/goregular"

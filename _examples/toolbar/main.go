@@ -2,14 +2,15 @@ package main
 
 import (
 	"bytes"
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/widget"
-	"github.com/ebitenui/ebitenui/event"
+	"log"
+
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/event"
+	"github.com/oliverday1/ebitenui/widget"
 	"golang.org/x/image/colornames"
 	"golang.org/x/image/font/gofont/goregular"
-	"log"
 )
 
 const (

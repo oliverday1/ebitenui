@@ -4,10 +4,10 @@ import (
 	"image"
 	"sort"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/utilities/sliceutil"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/oliverday1/ebitenui/event"
+	"github.com/oliverday1/ebitenui/input"
+	"github.com/oliverday1/ebitenui/utilities/sliceutil"
+	"github.com/oliverday1/ebitenui/widget"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )

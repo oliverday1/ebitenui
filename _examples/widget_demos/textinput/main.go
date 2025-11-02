@@ -8,13 +8,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/utilities/mobile"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/utilities/mobile"
+	"github.com/oliverday1/ebitenui/widget"
 	"golang.org/x/image/font/gofont/goregular"
 )
 

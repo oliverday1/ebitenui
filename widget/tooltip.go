@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	e_image "github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	e_image "github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/input"
 )
 
 type ToolTipPosition int

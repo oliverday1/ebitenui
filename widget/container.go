@@ -4,8 +4,8 @@ import (
 	"fmt"
 	img "image"
 
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
+	"github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/input"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )

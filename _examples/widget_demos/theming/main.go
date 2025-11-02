@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/_examples/widget_demos/theming/tabs"
-	"github.com/ebitenui/ebitenui/themes"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/_examples/widget_demos/theming/tabs"
+	"github.com/oliverday1/ebitenui/themes"
+	"github.com/oliverday1/ebitenui/widget"
 )
 
 // Game object used by ebiten.

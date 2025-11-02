@@ -3,7 +3,7 @@ package tabs
 import (
 	"fmt"
 
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/oliverday1/ebitenui/widget"
 )
 
 func NewTextAreaTab() *widget.TabBookTab {

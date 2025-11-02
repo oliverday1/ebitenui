@@ -23,12 +23,12 @@ import (
 	_ "image/png"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	eimage "github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
+	"github.com/oliverday1/ebitenui"
+	eimage "github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/input"
+	"github.com/oliverday1/ebitenui/widget"
 
 	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"

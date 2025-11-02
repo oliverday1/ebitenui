@@ -5,7 +5,7 @@ import (
 	"image/gif"
 	"time"
 
-	"github.com/ebitenui/ebitenui/image"
+	"github.com/oliverday1/ebitenui/image"
 
 	img "image"
 

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/image"
+	"github.com/oliverday1/ebitenui/event"
+	"github.com/oliverday1/ebitenui/image"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"

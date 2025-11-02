@@ -4,10 +4,10 @@ import (
 	img "image"
 	"math"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/utilities/constantutil"
+	"github.com/oliverday1/ebitenui/event"
+	"github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/input"
+	"github.com/oliverday1/ebitenui/utilities/constantutil"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )

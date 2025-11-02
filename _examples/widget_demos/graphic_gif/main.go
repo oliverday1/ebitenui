@@ -5,9 +5,9 @@ import (
 	_ "embed"
 	"image/gif"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/widget"
 )
 
 //go:embed ebitenui.gif

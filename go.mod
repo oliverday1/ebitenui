@@ -31,7 +31,7 @@ require (
 )
 
 require (
-	github.com/ebitenui/ebitenui v0.7.2
+	github.com/oliverday1/ebitenui v0.7.2
 	github.com/frustra/bbcode v0.0.0-20201127003707-6ef347fbe1c8
 )
 

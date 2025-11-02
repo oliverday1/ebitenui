@@ -3,8 +3,8 @@ package widget
 import (
 	"testing"
 
-	"github.com/ebitenui/ebitenui/event"
 	"github.com/matryer/is"
+	"github.com/oliverday1/ebitenui/event"
 )
 
 func TestButton_PressedEvent_User(t *testing.T) {

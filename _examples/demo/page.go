@@ -5,9 +5,9 @@ import (
 	"image"
 	"time"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/oliverday1/ebitenui"
+	"github.com/oliverday1/ebitenui/input"
+	"github.com/oliverday1/ebitenui/widget"
 )
 
 type page struct {

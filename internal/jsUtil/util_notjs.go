@@ -3,7 +3,7 @@
 
 package jsUtil
 
-import "github.com/ebitenui/ebitenui/utilities/mobile"
+import "github.com/oliverday1/ebitenui/utilities/mobile"
 
 func IsMobileBrowser() bool {
 	return false

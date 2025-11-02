@@ -8,12 +8,12 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	e_image "github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/utilities/mobile"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/oliverday1/ebitenui"
+	e_image "github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/input"
+	"github.com/oliverday1/ebitenui/utilities/mobile"
+	"github.com/oliverday1/ebitenui/widget"
 
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"

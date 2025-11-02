@@ -3,10 +3,10 @@ package widget
 import (
 	"image"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/input"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/oliverday1/ebitenui/event"
+	"github.com/oliverday1/ebitenui/input"
 )
 
 type TabBookParams struct {

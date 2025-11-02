@@ -6,12 +6,12 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	e_image "github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/oliverday1/ebitenui"
+	e_image "github.com/oliverday1/ebitenui/image"
+	"github.com/oliverday1/ebitenui/widget"
 	"golang.org/x/image/font/gofont/goregular"
 )
 
@@ -84,10 +84,10 @@ func main() {
 	game.TabBlue = widget.NewTabBookTab(
 		widget.TabBookTabOpts.Label("Blue Tab"),
 		widget.TabBookTabOpts.Image(&widget.GraphicImage{
-			Idle: blueImage,
+			Idle:     blueImage,
 			Disabled: blueImage,
-			Pressed: blueImage,
-			Hover: blueImage,
+			Pressed:  blueImage,
+			Hover:    blueImage,
 		}),
 		widget.TabBookTabOpts.ContainerOpts(
 			widget.ContainerOpts.BackgroundImage(e_image.NewNineSliceColor(color.NRGBA{0, 0, 255, 0xff})),

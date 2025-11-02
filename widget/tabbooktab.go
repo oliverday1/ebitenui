@@ -1,14 +1,14 @@
 package widget
 
 import (
-	"github.com/ebitenui/ebitenui/image"
+	"github.com/oliverday1/ebitenui/image"
 )
 
 type TabBookTab struct {
 	Container
 	Disabled bool
 	label    string
-	image   *GraphicImage
+	image    *GraphicImage
 }
 
 type TabBookTabSelectedEventArgs struct {
@@ -50,9 +50,8 @@ func (o *TabBookTabOptions) Label(label string) TabBookTabOpt {
 	}
 }
 
-func NewTabBookTab(opts... TabBookTabOpt) *TabBookTab {
-	c := &TabBookTab{
-	}
+func NewTabBookTab(opts ...TabBookTabOpt) *TabBookTab {
+	c := &TabBookTab{}
 	c.init = &MultiOnce{}
 	c.init.Append(c.createWidget)
 
