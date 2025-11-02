@@ -5,8 +5,8 @@ import (
 
 	"github.com/ebitenui/ebitenui/event"
 	"github.com/ebitenui/ebitenui/input"
-	internalinput "github.com/ebitenui/ebitenui/internal/input"
 	"github.com/hajimehoshi/ebiten/v2"
+	internalinput "github.com/oliverday1/ebitenui/internal/input"
 )
 
 // A Widget is an abstraction of a user interface widget, such as a button. Actual widget implementations

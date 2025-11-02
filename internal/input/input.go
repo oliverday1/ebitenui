@@ -4,9 +4,23 @@ import (
 	"image"
 	"runtime"
 
-	"github.com/ebitenui/ebitenui/internal/jsUtil"
+	"github.com/oliverday1/ebitenui/screen"
+
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/oliverday1/ebitenui/internal/jsUtil"
 )
+
+// MODIFIED
+
+func updateCoords(x, y int) (int, int) {
+	x -= screen.TopX
+	y -= screen.TopY
+	x /= screen.Scale
+	y /= screen.Scale
+	return x, y
+}
+
+// END_MODIFIED
 
 type DefaultInternalHandler struct {
 	LeftMouseButtonPressed   bool
@@ -69,6 +83,7 @@ func (handler *DefaultInternalHandler) Update() {
 		if len(handler.touchIDs) > 0 {
 			handler.LeftMouseButtonPressed = true
 			handler.CursorX, handler.CursorY = ebiten.TouchPosition(handler.touchIDs[0])
+
 		} else {
 			handler.LeftMouseButtonPressed = false
 			handler.isTouched = false
@@ -86,6 +101,9 @@ func (handler *DefaultInternalHandler) Update() {
 		handler.RightMouseButtonPressed = ebiten.IsMouseButtonPressed(ebiten.MouseButtonRight)
 		handler.CursorX, handler.CursorY = ebiten.CursorPosition()
 	}
+	// MODIFIED
+	handler.CursorX, handler.CursorY = updateCoords(handler.CursorX, handler.CursorY)
+	// END_MODIFIED
 
 	wx, wy := ebiten.Wheel()
 	handler.WheelX += wx

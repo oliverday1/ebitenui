@@ -12,10 +12,10 @@ import (
 	"github.com/ebitenui/ebitenui/event"
 	"github.com/ebitenui/ebitenui/image"
 	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/internal/jsUtil"
 	"github.com/ebitenui/ebitenui/utilities/mobile"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/oliverday1/ebitenui/internal/jsUtil"
 )
 
 type TextInputParams struct {

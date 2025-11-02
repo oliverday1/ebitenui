@@ -1,6 +1,6 @@
 package event
 
-import internalevent "github.com/ebitenui/ebitenui/internal/event"
+import internalevent "github.com/oliverday1/ebitenui/internal/event"
 
 // Event encapsulates an arbitrary event that event handlers may be interested in.
 type Event struct {
@@ -34,11 +34,11 @@ type deferredAddHandler struct {
 // Use this function when passing adding a new handler to an event object, such as
 // button.ClickedEvent.AddHandler(WrapHandler(func (args *widget.ButtonClickedEventArgs){ ... }))
 func WrapHandler[T any](f func(T)) HandlerFunc {
-    return func(args interface{}) {
-        if arg, ok := args.(T); ok {
-            f(arg)
-        }
-    }
+	return func(args interface{}) {
+		if arg, ok := args.(T); ok {
+			f(arg)
+		}
+	}
 }
 
 // AddHandler registers event handler h with e. It returns a function to remove h from e if desired.
